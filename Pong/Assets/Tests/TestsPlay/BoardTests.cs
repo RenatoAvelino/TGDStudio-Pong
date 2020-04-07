@@ -49,6 +49,21 @@ namespace Tests
             Assert.IsNotNull(ball); //Test if the ball has been created
         }
 
+        [Test]
+        public void Ball_Is_Succesfully_Created_And_Unique()
+        {
+            GameObject[] balls = GameObject.FindGameObjectsWithTag("Ball");
+            Assert.AreEqual(1, balls.Length);
+        }
+
+        [Test]
+        public void Ball_Is_Sucefully_Destroyed()
+        {
+            script.DestroyBall();
+            GameObject[] ball = GameObject.FindGameObjectsWithTag("Ball");
+            Assert.AreEqual(0, ball.Length);
+        }
+
         // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
         // `yield return null;` to skip a frame.
         [UnityTest]
@@ -57,6 +72,15 @@ namespace Tests
             // Use the Assert class to test conditions.
             // Use yield to skip a frame.
             yield return null;
+        }
+
+
+        [TearDown]
+        public void TearDown()
+        {
+            GameObject.Destroy(board);
+            GameObject ball = GameObject.Find("Ball(Clone)");
+            GameObject.Destroy(ball);
         }
     }
 }
