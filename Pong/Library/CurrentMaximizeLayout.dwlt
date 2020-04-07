@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 534, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 533, y: 492}
+  m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
-  controlID: 1687
+  controlID: 6695
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -49,7 +49,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 448
-    width: 925
+    width: 941
     height: 335
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
@@ -93,23 +93,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 925
+      width: 941
       height: 314
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 462.5, y: 157}
+    m_Translation: {x: 470.5, y: 157}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -462.5
+      x: -470.5
       y: -157
-      width: 925
+      width: 941
       height: 314
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1156.25, y: 418.75}
+  m_LastWindowPixelSize: {x: 1176.25, y: 418.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -134,12 +134,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 926
+    width: 942
     height: 731
-  m_MinSize: {x: 201, y: 442}
-  m_MaxSize: {x: 4001, y: 8042}
+  m_MinSize: {x: 201, y: 421}
+  m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
-  controlID: 1688
+  controlID: 6651
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,10 +157,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 926
+    width: 942
     height: 375
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -189,7 +189,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 925
+    width: 941
     height: 354
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -202,9 +202,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.580319, y: 1.1318885, z: 6.563027}
+    m_Target: {x: -1.1528716, y: -1.8547878, z: -2.9712517}
     speed: 2
-    m_Value: {x: 2.580319, y: 1.1318885, z: 6.563027}
+    m_Value: {x: -1.1528716, y: -1.8547878, z: -2.9712517}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -226,10 +226,10 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -242,21 +242,21 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.10491054, y: -0.8923246, z: 0.2710479, w: 0.34537748}
+    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0.10491044, y: -0.8923238, z: 0.27104762, w: 0.34537715}
+    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_Size:
-    m_Target: 28.872276
+    m_Target: 21.439116
     speed: 2
-    m_Value: 28.872276
+    m_Value: 21.439116
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -274,7 +274,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.2384303, y: -0.56729573, z: 0.1760433, w: 0.76833403}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -298,7 +298,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 375
-    width: 926
+    width: 942
     height: 356
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -324,14 +324,14 @@ MonoBehaviour:
   - {fileID: 10}
   m_Position:
     serializedVersion: 2
-    x: 926
+    x: 942
     y: 0
-    width: 249
+    width: 234
     height: 731
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 1670
+  controlID: 6696
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -349,10 +349,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 249
-    height: 457
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 234
+    height: 455
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 9}
   m_Panes:
   - {fileID: 9}
@@ -379,17 +379,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 926.4
+    x: 942.4
     y: 73.6
-    width: 247
-    height: 436
+    width: 232
+    height: 434
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c2ecffff00edffff22edffffe8edffff28eeffff4aeefffffceeffff02f1ffff2cf1ffff52fbffff
+      m_ExpandedIDs: 6ca9ffff24abffff46abffffb6acffffccb0ffffeeb0ffff60b2ffffa8b3ffffcab3ffff9ab4ffff02b5ffff24b5ffff6cb6ffff6eb7ffff98b7ffffbab7ffff02b9ffffaabaffffccbaffff14bcffffc8c0ffffeac0fffff6c1ffff1cd2ffff3ed2ffff46d3ffff9cd3ffffbed3ffffc6d4ffffded5ffff00d6ffff0ad7ffffc2d7ffffe4d7ffffecd8ffff98d9ffffbad9ffffc2daffff82e3ffffa4e3ffff44e6ffffcae6ffffece6ffff8ee9ffff44ebffff66ebffff06eeffffb0efffffd2efffff12f2ffff4af3ffff6cf3ffffbcf4ffff50f5ffff72f5ffff12f8ffff70fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -429,11 +429,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 457
-    width: 249
-    height: 274
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
+    y: 455
+    width: 234
+    height: 276
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -460,10 +460,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 926.4
-    y: 530.4
-    width: 247
-    height: 253
+    x: 942.4
+    y: 528
+    width: 232
+    height: 255
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -490,7 +490,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 243c0000
     m_LastClickedID: 15396
-    m_ExpandedIDs: ffffffff00000000b2330000b4330000b8330000d0330000ea330000f033000042340000
+    m_ExpandedIDs: ffffffff00000000b0330000b2330000b4330000b6330000b8330000ba330000bc330000be330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -515,10 +515,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 28}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000b2330000b4330000b8330000d0330000ea330000f033000042340000
+    m_ExpandedIDs: ffffffff00000000b0330000b2330000b4330000b6330000b8330000ba330000bc330000be330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -589,12 +589,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1175
+    x: 1176
     y: 0
-    width: 361
+    width: 360
     height: 731
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 13}
@@ -622,9 +622,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1175.2001
+    x: 1176
     y: 73.6
-    width: 360
+    width: 359
     height: 710
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
@@ -659,13 +659,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1175.2001
+    x: 1176
     y: 73.6
-    width: 360
+    width: 359
     height: 710
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 1717
+    ID: 6726
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes: e0010000a0000000
@@ -686,7 +686,7 @@ MonoBehaviour:
       name: Pong
       fullName: Pong
       resultStatus: 0
-      duration: 0
+      duration: 5.2480173
       messages: 
       output: 
       stacktrace: 
@@ -697,12 +697,12 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1004
+    - id: 1007
       uniqueId: '[C:/Users/renat/Desktop/Joojs/Unity_Games/Pong/Library/ScriptAssemblies/TestsPlay.dll][suite]'
       name: TestsPlay.dll
       fullName: C:/Users/renat/Desktop/Joojs/Unity_Games/Pong/Library/ScriptAssemblies/TestsPlay.dll
       resultStatus: 0
-      duration: 0
+      duration: 5.1635337
       messages: 
       output: 
       stacktrace: 
@@ -713,12 +713,12 @@ MonoBehaviour:
       categories: []
       parentId: 1000
       parentUniqueId: '[Pong][suite]'
-    - id: 1005
+    - id: 1008
       uniqueId: TestsPlay.dll/[Tests][suite]
       name: Tests
       fullName: Tests
       resultStatus: 0
-      duration: 0
+      duration: 5.1461344
       messages: 
       output: 
       stacktrace: 
@@ -727,14 +727,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1004
+      parentId: 1007
       parentUniqueId: '[C:/Users/renat/Desktop/Joojs/Unity_Games/Pong/Library/ScriptAssemblies/TestsPlay.dll][suite]'
     - id: 1001
-      uniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.TestBoard][suite]
-      name: TestBoard
-      fullName: Tests.TestBoard
+      uniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BatonTests][suite]
+      name: BatonTests
+      fullName: Tests.BatonTests
       resultStatus: 0
-      duration: 0
+      duration: 5.131455
       messages: 
       output: 
       stacktrace: 
@@ -743,48 +743,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1005
+      parentId: 1013
       parentUniqueId: TestsPlay.dll/[Tests][suite]
-    - id: 1004
-      uniqueId: TestsPlay.dll/Tests/TestBoard/[TestsPlay][Tests.TestBoard.Both_Batons_Are_Succesfully_Created]
-      name: Both_Batons_Are_Succesfully_Created
-      fullName: Tests.TestBoard.Both_Batons_Are_Succesfully_Created
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.TestBoard][suite]
-    - id: 1003
-      uniqueId: TestsPlay.dll/Tests/TestBoard/[TestsPlay][Tests.TestBoard.One_Baton_Is_Succesfully_Created]
-      name: One_Baton_Is_Succesfully_Created
-      fullName: Tests.TestBoard.One_Baton_Is_Succesfully_Created
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.TestBoard][suite]
     - id: 1002
-      uniqueId: TestsPlay.dll/Tests/TestBoard/[TestsPlay][Tests.TestBoard.TestBoardSimplePasses]
-      name: TestBoardSimplePasses
-      fullName: Tests.TestBoard.TestBoardSimplePasses
+      uniqueId: TestsPlay.dll/Tests/BatonTests/[TestsPlay][Tests.BatonTests.BatonTestsSimplePasses]
+      name: BatonTestsSimplePasses
+      fullName: Tests.BatonTests.BatonTestsSimplePasses
       resultStatus: 0
-      duration: 0
+      duration: 0.029939
       messages: 
       output: 
       stacktrace: 
@@ -795,11 +761,28 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentId: 1001
-      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.TestBoard][suite]
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BatonTests][suite]
     - id: 1003
-      uniqueId: TestsPlay.dll/Tests/TestBoard/[TestsPlay][Tests.TestBoard.TestBoardWithEnumeratorPasses]
-      name: TestBoardWithEnumeratorPasses
-      fullName: Tests.TestBoard.TestBoardWithEnumeratorPasses
+      uniqueId: TestsPlay.dll/Tests/BatonTests/[TestsPlay][Tests.BatonTests.BatonTestsWithEnumeratorPasses]
+      name: BatonTestsWithEnumeratorPasses
+      fullName: Tests.BatonTests.BatonTestsWithEnumeratorPasses
+      resultStatus: 0
+      duration: 0.0717514
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BatonTests][suite]
+    - id: 1004
+      uniqueId: TestsPlay.dll/Tests/BatonTests/[TestsPlay][Tests.BatonTests.Right_Baton_Stays_In_Upper_Camera_Bounds]
+      name: Right_Baton_Stays_In_Upper_Camera_Bounds
+      fullName: Tests.BatonTests.Right_Baton_Stays_In_Upper_Camera_Bounds
       resultStatus: 0
       duration: 0
       messages: 
@@ -812,14 +795,149 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentId: 1001
-      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.TestBoard][suite]
-    m_ResultText: TestBoardSimplePasses (0,000s)
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BatonTests][suite]
+    - id: 1001
+      uniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BoardTests][suite]
+      name: BoardTests
+      fullName: Tests.BoardTests
+      resultStatus: 0
+      duration: 0.1640904
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1008
+      parentUniqueId: TestsPlay.dll/[Tests][suite]
+    - id: 1005
+      uniqueId: TestsPlay.dll/Tests/BoardTests/[TestsPlay][Tests.BoardTests.Ball_Is_Succesfully_Created]
+      name: Ball_Is_Succesfully_Created
+      fullName: Tests.BoardTests.Ball_Is_Succesfully_Created
+      resultStatus: 0
+      duration: 0.0038356
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BoardTests][suite]
+    - id: 1006
+      uniqueId: TestsPlay.dll/Tests/BoardTests/[TestsPlay][Tests.BoardTests.Ball_Is_Succesfully_Created_And_Unique]
+      name: Ball_Is_Succesfully_Created_And_Unique
+      fullName: Tests.BoardTests.Ball_Is_Succesfully_Created_And_Unique
+      resultStatus: 0
+      duration: 0.001103
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BoardTests][suite]
+    - id: 1007
+      uniqueId: TestsPlay.dll/Tests/BoardTests/[TestsPlay][Tests.BoardTests.Ball_Is_Sucefully_Destroyed]
+      name: Ball_Is_Sucefully_Destroyed
+      fullName: Tests.BoardTests.Ball_Is_Sucefully_Destroyed
+      resultStatus: 0
+      duration: 0.0012523
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BoardTests][suite]
+    - id: 1002
+      uniqueId: TestsPlay.dll/Tests/BoardTests/[TestsPlay][Tests.BoardTests.BoardTestsSimplePasses]
+      name: BoardTestsSimplePasses
+      fullName: Tests.BoardTests.BoardTestsSimplePasses
+      resultStatus: 0
+      duration: 0.0020591
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BoardTests][suite]
+    - id: 1006
+      uniqueId: TestsPlay.dll/Tests/BoardTests/[TestsPlay][Tests.BoardTests.BoardTestsWithEnumeratorPasses]
+      name: BoardTestsWithEnumeratorPasses
+      fullName: Tests.BoardTests.BoardTestsWithEnumeratorPasses
+      resultStatus: 0
+      duration: 0.1040142
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BoardTests][suite]
+    - id: 1004
+      uniqueId: TestsPlay.dll/Tests/BoardTests/[TestsPlay][Tests.BoardTests.Both_Batons_Are_Succesfully_Created]
+      name: Both_Batons_Are_Succesfully_Created
+      fullName: Tests.BoardTests.Both_Batons_Are_Succesfully_Created
+      resultStatus: 0
+      duration: 0.0016052
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BoardTests][suite]
+    - id: 1003
+      uniqueId: TestsPlay.dll/Tests/BoardTests/[TestsPlay][Tests.BoardTests.One_Baton_Is_Succesfully_Created]
+      name: One_Baton_Is_Succesfully_Created
+      fullName: Tests.BoardTests.One_Baton_Is_Succesfully_Created
+      resultStatus: 0
+      duration: 0.0012337
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BoardTests][suite]
+    m_ResultText: BatonTests (5,131s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ea0e9206
-      m_LastClickedID: 110235370
-      m_ExpandedIDs: 0e7752a27e2811bfefc68c506b5d2662ffffff7f
+      m_SelectedIDs: 27a27d96
+      m_LastClickedID: -1770151385
+      m_ExpandedIDs: 27a27d960e7752a27e2811bfefc68c506b5d2662ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -864,142 +982,6 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1004
-      uniqueId: '[C:/Users/renat/Desktop/Joojs/Unity_Games/Pong/Library/ScriptAssemblies/TestsEdit.dll][suite]'
-      name: TestsEdit.dll
-      fullName: C:/Users/renat/Desktop/Joojs/Unity_Games/Pong/Library/ScriptAssemblies/TestsEdit.dll
-      resultStatus: 2
-      duration: 0.5042612
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1000
-      parentUniqueId: '[Pong][suite]'
-    - id: 1005
-      uniqueId: TestsEdit.dll/[Tests][suite]
-      name: Tests
-      fullName: Tests
-      resultStatus: 2
-      duration: 0.4917667
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1004
-      parentUniqueId: '[C:/Users/renat/Desktop/Joojs/Unity_Games/Pong/Library/ScriptAssemblies/TestsEdit.dll][suite]'
-    - id: 1001
-      uniqueId: TestsEdit.dll/Tests/[TestsEdit][Tests.TesteBoard][suite]
-      name: TesteBoard
-      fullName: Tests.TesteBoard
-      resultStatus: 2
-      duration: 0.4640797
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1005
-      parentUniqueId: TestsEdit.dll/[Tests][suite]
-    - id: 1004
-      uniqueId: TestsEdit.dll/Tests/TesteBoard/[TestsEdit][Tests.TesteBoard.Both_Batons_Are_Succesfully_Created]
-      name: Both_Batons_Are_Succesfully_Created
-      fullName: Tests.TesteBoard.Both_Batons_Are_Succesfully_Created
-      resultStatus: 2
-      duration: 0.0740629
-      messages: 'System.ArgumentException : The Object you want to instantiate is
-        null.'
-      output: 
-      stacktrace: "  at UnityEngine.Object.CheckNullArgument (System.Object arg,
-        System.String message) [0x00009] in <d815b7efac424eeb8e053965cccb1f98>:0
-        \r\n  at UnityEngine.Object.Instantiate[T] (T original) [0x00001] in <d815b7efac424eeb8e053965cccb1f98>:0
-        \r\n  at Tests.TesteBoard.CreateBatons () [0x00012] in C:\\Users\\renat\\Desktop\\Joojs\\Unity_Games\\Pong\\Assets\\Tests\\TestsEdit\\TesteBoard.cs:18
-        \r\n  at Tests.TesteBoard.Both_Batons_Are_Succesfully_Created () [0x00001]
-        in C:\\Users\\renat\\Desktop\\Joojs\\Unity_Games\\Pong\\Assets\\Tests\\TestsEdit\\TesteBoard.cs:39
-        \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
-        at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x00032] in <437ba245d8404784b9fbab9b439ac908>:0 "
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: TestsEdit.dll/Tests/[TestsEdit][Tests.TesteBoard][suite]
-    - id: 1003
-      uniqueId: TestsEdit.dll/Tests/TesteBoard/[TestsEdit][Tests.TesteBoard.One_Baton_Is_Succesfully_Created]
-      name: One_Baton_Is_Succesfully_Created
-      fullName: Tests.TesteBoard.One_Baton_Is_Succesfully_Created
-      resultStatus: 2
-      duration: 0.0020247
-      messages: 'System.ArgumentException : The Object you want to instantiate is
-        null.'
-      output: 
-      stacktrace: "  at UnityEngine.Object.CheckNullArgument (System.Object arg,
-        System.String message) [0x00009] in <d815b7efac424eeb8e053965cccb1f98>:0
-        \r\n  at UnityEngine.Object.Instantiate[T] (T original) [0x00001] in <d815b7efac424eeb8e053965cccb1f98>:0
-        \r\n  at Tests.TesteBoard.CreateBatons () [0x00012] in C:\\Users\\renat\\Desktop\\Joojs\\Unity_Games\\Pong\\Assets\\Tests\\TestsEdit\\TesteBoard.cs:18
-        \r\n  at Tests.TesteBoard.One_Baton_Is_Succesfully_Created () [0x00001] in
-        C:\\Users\\renat\\Desktop\\Joojs\\Unity_Games\\Pong\\Assets\\Tests\\TestsEdit\\TesteBoard.cs:32
-        \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
-        at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x00032] in <437ba245d8404784b9fbab9b439ac908>:0 "
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: TestsEdit.dll/Tests/[TestsEdit][Tests.TesteBoard][suite]
-    - id: 1002
-      uniqueId: TestsEdit.dll/Tests/TesteBoard/[TestsEdit][Tests.TesteBoard.TesteBoardSimplePasses]
-      name: TesteBoardSimplePasses
-      fullName: Tests.TesteBoard.TesteBoardSimplePasses
-      resultStatus: 1
-      duration: 0.0476993
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: TestsEdit.dll/Tests/[TestsEdit][Tests.TesteBoard][suite]
-    - id: 1003
-      uniqueId: TestsEdit.dll/Tests/TesteBoard/[TestsEdit][Tests.TesteBoard.TesteBoardWithEnumeratorPasses]
-      name: TesteBoardWithEnumeratorPasses
-      fullName: Tests.TesteBoard.TesteBoardWithEnumeratorPasses
-      resultStatus: 1
-      duration: 0.2375567
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: TestsEdit.dll/Tests/[TestsEdit][Tests.TesteBoard][suite]
     m_ResultText: "One_Baton_Is_Succesfully_Created (0,002s)\n---\nSystem.ArgumentException
       : The Object you want to instantiate is null.\n---\nat UnityEngine.Object.CheckNullArgument
       (System.Object arg, System.String message) [0x00009] in <d815b7efac424eeb8e053965cccb1f98>:0

@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Tests\TestsPlay\BatonTests.cs" />
     <Compile Include="Assets\Tests\TestsPlay\BoardTests.cs" />
     <None Include="Assets\Tests\TestsPlay\TestsPlay.asmdef" />
     <Reference Include="UnityEngine.TestRunner">

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsPlay", "TestsPlay.csproj", "{D6AFB5FD-0A5D-1873-025D-44854238E3E2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameScripts", "GameScripts.csproj", "{98E666A4-49B6-4A56-5469-6FAE4E3D0BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsPlay", "TestsPlay.csproj", "{D6AFB5FD-0A5D-1873-025D-44854238E3E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D6AFB5FD-0A5D-1873-025D-44854238E3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6AFB5FD-0A5D-1873-025D-44854238E3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6AFB5FD-0A5D-1873-025D-44854238E3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6AFB5FD-0A5D-1873-025D-44854238E3E2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{98E666A4-49B6-4A56-5469-6FAE4E3D0BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{98E666A4-49B6-4A56-5469-6FAE4E3D0BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98E666A4-49B6-4A56-5469-6FAE4E3D0BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98E666A4-49B6-4A56-5469-6FAE4E3D0BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AFB5FD-0A5D-1873-025D-44854238E3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AFB5FD-0A5D-1873-025D-44854238E3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AFB5FD-0A5D-1873-025D-44854238E3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AFB5FD-0A5D-1873-025D-44854238E3E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

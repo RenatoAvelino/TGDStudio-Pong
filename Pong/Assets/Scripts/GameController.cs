@@ -5,29 +5,25 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject batonPrefab;
     void Start()
     {
-        batonPrefab = Resources.Load<GameObject>("Prefabs/Baton");
-        //GameObject ball = CreateBall();
+        GameObject[] batons = CreateBatons();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            DestroyBall();
-        }
         
     }
 
     public GameObject[] CreateBatons() //Create and return a Array with 2 batons
     {
+        GameObject batonPrefab = Resources.Load<GameObject>("Prefabs/Baton");
         GameObject[] batons = new GameObject[2]; //Create the Array
         for(int i = 0; i < 2; i++){
             GameObject temp = GameObject.Instantiate(batonPrefab);
             temp.transform.position = new Vector3((7 - (14 * i)), 0.5f, 0);//Set the initial position of the batons
+            temp.GetComponent<BatonScript>().SetAxis(i); //Set the controls for the baton
             batons[i] = temp;
         }
 
