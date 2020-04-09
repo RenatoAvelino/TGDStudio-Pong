@@ -78,6 +78,7 @@ namespace Tests
         [TearDown]
         public void TearDown()
         {
+            script.DestroyBatons();
             GameObject.Destroy(board);
             GameObject ball = GameObject.Find("Ball(Clone)");
             GameObject.Destroy(ball);

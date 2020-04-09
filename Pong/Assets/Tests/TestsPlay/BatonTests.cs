@@ -115,6 +115,7 @@ namespace Tests
         public void TearDown()
         {
             GameObject.Destroy(board);
+            script.DestroyBatons();
             GameObject ball = GameObject.Find("Ball(Clone)");
             GameObject.Destroy(ball);
         }

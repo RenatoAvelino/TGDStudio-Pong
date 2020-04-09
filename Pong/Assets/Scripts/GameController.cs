@@ -34,6 +34,7 @@ public class GameController : MonoBehaviour
     {
         GameObject ballPrefab = Resources.Load<GameObject>("Prefabs/Ball");
         GameObject ball = GameObject.Instantiate(ballPrefab);
+        ball.transform.position = new Vector3(0, 0.5f, 0);
 
         return ball; //Return the Ball
     }
@@ -44,9 +45,12 @@ public class GameController : MonoBehaviour
         GameObject.DestroyImmediate(ball, true); //Destroy the Ball (I tried to use only Destroy but it didn't work)
     }
 
-    public void PrintObjectName(GameObject _object)
+    public void DestroyBatons()
     {
-        print(_object);
-        print(_object.name);
+        GameObject[] batons = GameObject.FindGameObjectsWithTag("Player");
+        foreach(GameObject baton in batons)
+        {
+            Destroy(baton);
+        }
     }
 }

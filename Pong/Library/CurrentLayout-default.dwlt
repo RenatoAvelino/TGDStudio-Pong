@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 521}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -113,10 +113,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 534, y: 471}
-  m_MaxSize: {x: 18004, y: 14021}
+  m_MinSize: {x: 709, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 6847
+  controlID: 32229
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,10 +138,10 @@ MonoBehaviour:
     y: 0
     width: 942
     height: 731
-  m_MinSize: {x: 201, y: 421}
-  m_MaxSize: {x: 4001, y: 8021}
+  m_MinSize: {x: 201, y: 442}
+  m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 6803
+  controlID: 32177
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,8 +161,8 @@ MonoBehaviour:
     y: 0
     width: 942
     height: 375
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 375
     width: 942
     height: 356
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -215,10 +215,10 @@ MonoBehaviour:
     y: 0
     width: 234
     height: 731
-  m_MinSize: {x: 232, y: 471}
-  m_MaxSize: {x: 10002, y: 14021}
+  m_MinSize: {x: 232, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 6848
+  controlID: 32266
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -238,8 +238,8 @@ MonoBehaviour:
     y: 0
     width: 234
     height: 455
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TestRunnerWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -290,14 +290,14 @@ MonoBehaviour:
     y: 0
     width: 360
     height: 731
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_MaximizeOnPlay: 0
+  m_MaximizeOnPlay: 1
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -423,9 +423,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.1528716, y: -1.8547878, z: -2.9712517}
+    m_Target: {x: 1.5765729, y: 1.572926, z: -0.7830663}
     speed: 2
-    m_Value: {x: -1.1528716, y: -1.8547878, z: -2.9712517}
+    m_Value: {x: 1.5765729, y: 1.572926, z: -0.7830663}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -471,13 +471,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Target: {x: 0.3653437, y: -0.104399644, z: 0.04127546, w: 0.9240784}
     speed: 2
-    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Value: {x: -0.3653437, y: 0.10439965, z: -0.04127546, w: -0.9240784}
   m_Size:
-    m_Target: 26.608942
+    m_Target: 0.14669967
     speed: 2
-    m_Value: 26.608942
+    m_Value: 0.44669968
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -533,7 +533,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6689ffff8889ffffc48dffff848effffa68effff7e8ffffff08fffff1290ffffea90ffff5691ffff7891ffff1893ffff409bffff4c9bffff769bffff989bffff689cffff309dffff529dffff229effff18a1ffff3aa1ffff82a2fffff4a2ffff16a3ffff7ea5fffff2a5ffff14a6ffff6ca9ffff24abffff46abffffb6acffffccb0ffffeeb0ffff60b2ffffa8b3ffffcab3ffff9ab4ffff02b5ffff24b5ffff6cb6ffff6eb7ffff98b7ffffbab7ffff02b9ffffaabaffffccbaffff14bcffffc8c0ffffeac0fffff6c1ffff1cd2ffff3ed2ffff46d3ffff9cd3ffffbed3ffffc6d4ffffded5ffff00d6ffff0ad7ffffc2d7ffffe4d7ffffecd8ffff98d9ffffbad9ffffc2daffff82e3ffffa4e3ffff44e6ffffcae6ffffece6ffff8ee9ffff44ebffff66ebffff06eeffffb0efffffd2efffff12f2ffff4af3ffff6cf3ffffbcf4ffff50f5ffff72f5ffff12f8ffff70fbffff
+      m_ExpandedIDs: c6e2feffdee2fefff2e2feff14e3feff1ee4feff7ce4feff9ee4feffb0e5feff0ee6feff30e6feff3ae7feff50e8feff72e8feff84e9feffe2e9feff04eafeff16ebfeff74ebfeff96ebfeffa8ecfeff54eefeff76eefeff80effeffdeeffeff00f0feff0af1feff84f1feffa6f1feffb0f2feffb6f4feffd8f4feffeaf5fefff6f6feff18f7feff22f8feffe2f8feff04f9feff16fafeff8efafeffb0fafeff9efbfeff5cfcfeff7efcfeff90fdfeff48fefeff6afefeff7cfffeff4e00ffff7000ffff7a01ffffb803ffffda03ffffe404ffff4205ffff6405ffff7606ffffd607fffff807ffff0209ffff6e09ffff9009ffff9a0affff660dffff880dffff920effff580fffff7a0fffff8610ffffea10ffff0c11ffff1812ffff7a28ffff9c28ffffa629ffff742cffff962cffffa02dffff162fffff382fffffbe30ffff3c31ffff5e31ffff6832ffff6433ffff8633ffff9034ffff2c35ffff4e35ffff5836ffff903dffffb23dffff7c3effff423fffff643fffff3640fffff440ffff1641ffff4242ffff6043ffff8243ffff4e44ffff0445ffff2645ffff9847ffff184affffaa4affff3a4effff5c4effffb655ffff2c5dffff405dffff625dffff425effff445fffff665fffff4460ffff9c60ffffbe60ffff9c61ffff4c62ffff6e62ffff4c63fffff263ffff1464fffffa64fffff265ffff1466ffff8c66ffff2e67ffff5067ffffc067ffff3468ffff5668ffff6269ffff9e7affff46fbffff70fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -595,7 +595,8 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Resources/Materials/Physics
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders:
@@ -608,7 +609,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 243c0000
     m_LastClickedID: 15396
-    m_ExpandedIDs: ffffffff00000000b0330000b2330000b4330000b6330000b8330000ba330000bc330000be330000
+    m_ExpandedIDs: ffffffff00000000d8330000da330000dc330000de330000e0330000e2330000e6330000fa330000763400005a4800005c480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -636,7 +637,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000b0330000b2330000b4330000b6330000b8330000ba330000bc330000be330000
+    m_ExpandedIDs: ffffffff00000000d8330000da330000dc330000de330000e0330000e2330000e6330000fa330000763400005a4800005c480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -756,7 +757,7 @@ MonoBehaviour:
     height: 710
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 6929
+    ID: 21281
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes: e0010000a0000000
@@ -777,7 +778,7 @@ MonoBehaviour:
       name: Pong
       fullName: Pong
       resultStatus: 1
-      duration: 1.5206926
+      duration: 0.4966844
       messages: 
       output: 
       stacktrace: 
@@ -793,7 +794,7 @@ MonoBehaviour:
       name: TestsPlay.dll
       fullName: C:/Users/renat/Desktop/Joojs/Unity_Games/Pong/Library/ScriptAssemblies/TestsPlay.dll
       resultStatus: 1
-      duration: 1.4653199
+      duration: 0.4481289
       messages: 
       output: 
       stacktrace: 
@@ -809,7 +810,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 1
-      duration: 1.4466563
+      duration: 0.4331178
       messages: 
       output: 
       stacktrace: 
@@ -821,11 +822,248 @@ MonoBehaviour:
       parentId: 1007
       parentUniqueId: '[C:/Users/renat/Desktop/Joojs/Unity_Games/Pong/Library/ScriptAssemblies/TestsPlay.dll][suite]'
     - id: 1001
+      uniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+      name: BallTests
+      fullName: Tests.BallTests
+      resultStatus: 1
+      duration: 0.4209981
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1020
+      parentUniqueId: TestsPlay.dll/[Tests][suite]
+    - id: 1011
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.Ball_Collides_In_Bottom_Of_Left_Baton]
+      name: Ball_Collides_In_Bottom_Of_Left_Baton
+      fullName: Tests.BallTests.Ball_Collides_In_Bottom_Of_Left_Baton
+      resultStatus: 1
+      duration: 0.393563
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+    - id: 1014
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.Ball_Collides_In_Bottom_Of_Right_Baton]
+      name: Ball_Collides_In_Bottom_Of_Right_Baton
+      fullName: Tests.BallTests.Ball_Collides_In_Bottom_Of_Right_Baton
+      resultStatus: 1
+      duration: 0.3726054
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+    - id: 1009
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.Ball_Collides_In_Middle_Of_Left_Baton]
+      name: Ball_Collides_In_Middle_Of_Left_Baton
+      fullName: Tests.BallTests.Ball_Collides_In_Middle_Of_Left_Baton
+      resultStatus: 1
+      duration: 0.3652
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+    - id: 1012
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.Ball_Collides_In_Middle_Of_Right_Baton]
+      name: Ball_Collides_In_Middle_Of_Right_Baton
+      fullName: Tests.BallTests.Ball_Collides_In_Middle_Of_Right_Baton
+      resultStatus: 1
+      duration: 0.3694418
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+    - id: 1010
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.Ball_Collides_In_Top_Of_Left_Baton]
+      name: Ball_Collides_In_Top_Of_Left_Baton
+      fullName: Tests.BallTests.Ball_Collides_In_Top_Of_Left_Baton
+      resultStatus: 1
+      duration: 0.3634667
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+    - id: 1013
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.Ball_Collides_In_Top_Of_Right_Baton]
+      name: Ball_Collides_In_Top_Of_Right_Baton
+      fullName: Tests.BallTests.Ball_Collides_In_Top_Of_Right_Baton
+      resultStatus: 1
+      duration: 0.3696938
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+    - id: 1005
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.Ball_Stays_In_Lower_Camera_Bounds]
+      name: Ball_Stays_In_Lower_Camera_Bounds
+      fullName: Tests.BallTests.Ball_Stays_In_Lower_Camera_Bounds
+      resultStatus: 1
+      duration: 1.3287494
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+    - id: 1003
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.Ball_Stays_In_Upper_Camera_Bounds]
+      name: Ball_Stays_In_Upper_Camera_Bounds
+      fullName: Tests.BallTests.Ball_Stays_In_Upper_Camera_Bounds
+      resultStatus: 1
+      duration: 5.1353345
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+    - id: 1002
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.BallTestsSimplePasses]
+      name: BallTestsSimplePasses
+      fullName: Tests.BallTests.BallTestsSimplePasses
+      resultStatus: 1
+      duration: 0.0035691
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+    - id: 1003
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.BallTestsWithEnumeratorPasses]
+      name: BallTestsWithEnumeratorPasses
+      fullName: Tests.BallTests.BallTestsWithEnumeratorPasses
+      resultStatus: 1
+      duration: 0.0501743
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+    - id: 1005
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.Hit_Player_Result_Negative]
+      name: Hit_Player_Result_Negative
+      fullName: Tests.BallTests.Hit_Player_Result_Negative
+      resultStatus: 1
+      duration: 0.0432832
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+    - id: 1004
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.Hit_Player_Result_Positive]
+      name: Hit_Player_Result_Positive
+      fullName: Tests.BallTests.Hit_Player_Result_Positive
+      resultStatus: 1
+      duration: 0.0459157
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+    - id: 1003
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.Hit_Player_Result_Zero]
+      name: Hit_Player_Result_Zero
+      fullName: Tests.BallTests.Hit_Player_Result_Zero
+      resultStatus: 1
+      duration: 0.007935
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+    - id: 1001
       uniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BatonTests][suite]
       name: BatonTests
       fullName: Tests.BatonTests
       resultStatus: 1
-      duration: 1.3419518
+      duration: 1.3071984
       messages: 
       output: 
       stacktrace: 
@@ -841,7 +1079,7 @@ MonoBehaviour:
       name: BatonTestsSimplePasses
       fullName: Tests.BatonTests.BatonTestsSimplePasses
       resultStatus: 1
-      duration: 0.0297792
+      duration: 0.0026396
       messages: 
       output: 
       stacktrace: 
@@ -858,7 +1096,7 @@ MonoBehaviour:
       name: BatonTestsWithEnumeratorPasses
       fullName: Tests.BatonTests.BatonTestsWithEnumeratorPasses
       resultStatus: 1
-      duration: 0.0687225
+      duration: 0.0533122
       messages: 
       output: 
       stacktrace: 
@@ -875,7 +1113,7 @@ MonoBehaviour:
       name: Left_Baton_Stays_In_Lower_Camera_Bounds
       fullName: Tests.BatonTests.Left_Baton_Stays_In_Lower_Camera_Bounds
       resultStatus: 1
-      duration: 0.3016237
+      duration: 0.3012091
       messages: 
       output: 
       stacktrace: 
@@ -892,7 +1130,7 @@ MonoBehaviour:
       name: Left_Baton_Stays_In_Upper_Camera_Bounds
       fullName: Tests.BatonTests.Left_Baton_Stays_In_Upper_Camera_Bounds
       resultStatus: 1
-      duration: 0.2985832
+      duration: 0.3039686
       messages: 
       output: 
       stacktrace: 
@@ -909,7 +1147,7 @@ MonoBehaviour:
       name: Right_Baton_Stays_In_Lower_Camera_Bounds
       fullName: Tests.BatonTests.Right_Baton_Stays_In_Lower_Camera_Bounds
       resultStatus: 1
-      duration: 0.2939376
+      duration: 0.3012364
       messages: 
       output: 
       stacktrace: 
@@ -926,7 +1164,7 @@ MonoBehaviour:
       name: Right_Baton_Stays_In_Upper_Camera_Bounds
       fullName: Tests.BatonTests.Right_Baton_Stays_In_Upper_Camera_Bounds
       resultStatus: 1
-      duration: 0.3092803
+      duration: 0.3198922
       messages: 
       output: 
       stacktrace: 
@@ -943,7 +1181,7 @@ MonoBehaviour:
       name: BoardTests
       fullName: Tests.BoardTests
       resultStatus: 1
-      duration: 0.0843811
+      duration: 0.1027242
       messages: 
       output: 
       stacktrace: 
@@ -959,7 +1197,7 @@ MonoBehaviour:
       name: Ball_Is_Succesfully_Created
       fullName: Tests.BoardTests.Ball_Is_Succesfully_Created
       resultStatus: 1
-      duration: 0.0054058
+      duration: 0.0056915
       messages: 
       output: 
       stacktrace: 
@@ -976,7 +1214,7 @@ MonoBehaviour:
       name: Ball_Is_Succesfully_Created_And_Unique
       fullName: Tests.BoardTests.Ball_Is_Succesfully_Created_And_Unique
       resultStatus: 1
-      duration: 0.0072217
+      duration: 0.0073284
       messages: 
       output: 
       stacktrace: 
@@ -993,7 +1231,7 @@ MonoBehaviour:
       name: Ball_Is_Sucefully_Destroyed
       fullName: Tests.BoardTests.Ball_Is_Sucefully_Destroyed
       resultStatus: 1
-      duration: 0.0008386
+      duration: 0.0010744
       messages: 
       output: 
       stacktrace: 
@@ -1010,7 +1248,7 @@ MonoBehaviour:
       name: BoardTestsSimplePasses
       fullName: Tests.BoardTests.BoardTestsSimplePasses
       resultStatus: 1
-      duration: 0.0004631
+      duration: 0.000579
       messages: 
       output: 
       stacktrace: 
@@ -1027,7 +1265,7 @@ MonoBehaviour:
       name: BoardTestsWithEnumeratorPasses
       fullName: Tests.BoardTests.BoardTestsWithEnumeratorPasses
       resultStatus: 1
-      duration: 0.0477598
+      duration: 0.0607162
       messages: 
       output: 
       stacktrace: 
@@ -1044,7 +1282,7 @@ MonoBehaviour:
       name: Both_Batons_Are_Succesfully_Created
       fullName: Tests.BoardTests.Both_Batons_Are_Succesfully_Created
       resultStatus: 1
-      duration: 0.0012004
+      duration: 0.0009234
       messages: 
       output: 
       stacktrace: 
@@ -1061,7 +1299,7 @@ MonoBehaviour:
       name: One_Baton_Is_Succesfully_Created
       fullName: Tests.BoardTests.One_Baton_Is_Succesfully_Created
       resultStatus: 1
-      duration: 0.0008444
+      duration: 0.0011505
       messages: 
       output: 
       stacktrace: 
@@ -1073,13 +1311,13 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BoardTests][suite]
-    m_ResultText: Right_Baton_Stays_In_Upper_Camera_Bounds (0,309s)
+    m_ResultText: Ball_Collides_In_Top_Of_Right_Baton (0,370s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 8ae8bbfd
-      m_LastClickedID: -38016886
-      m_ExpandedIDs: 27a27d960e7752a27e2811bfefc68c506b5d2662ffffff7f
+      m_SelectedIDs: babe0f71
+      m_LastClickedID: 1896857274
+      m_ExpandedIDs: 0e7752a27e2811bf18305d46efc68c506b5d2662ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1113,7 +1351,7 @@ MonoBehaviour:
       name: Pong
       fullName: Pong
       resultStatus: 2
-      duration: 0.7120565
+      duration: 0.1199942
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1124,31 +1362,17 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    m_ResultText: "One_Baton_Is_Succesfully_Created (0,002s)\n---\nSystem.ArgumentException
-      : The Object you want to instantiate is null.\n---\nat UnityEngine.Object.CheckNullArgument
-      (System.Object arg, System.String message) [0x00009] in <d815b7efac424eeb8e053965cccb1f98>:0
-      \r\n  at UnityEngine.Object.Instantiate[T] (T original) [0x00001] in <d815b7efac424eeb8e053965cccb1f98>:0
-      \r\n  at Tests.TesteBoard.CreateBatons () [0x00012] in C:\\Users\\renat\\Desktop\\Joojs\\Unity_Games\\Pong\\Assets\\Tests\\TestsEdit\\TesteBoard.cs:18
-      \r\n  at Tests.TesteBoard.One_Baton_Is_Succesfully_Created () [0x00001] in
-      C:\\Users\\renat\\Desktop\\Joojs\\Unity_Games\\Pong\\Assets\\Tests\\TestsEdit\\TesteBoard.cs:32
-      \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
-      at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
-      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
-      culture) [0x00032] in <437ba245d8404784b9fbab9b439ac908>:0"
-    m_ResultStacktrace: "  at UnityEngine.Object.CheckNullArgument (System.Object
-      arg, System.String message) [0x00009] in <d815b7efac424eeb8e053965cccb1f98>:0
-      \r\n  at UnityEngine.Object.Instantiate[T] (T original) [0x00001] in <d815b7efac424eeb8e053965cccb1f98>:0
-      \r\n  at Tests.TesteBoard.CreateBatons () [0x00012] in C:\\Users\\renat\\Desktop\\Joojs\\Unity_Games\\Pong\\Assets\\Tests\\TestsEdit\\TesteBoard.cs:18
-      \r\n  at Tests.TesteBoard.One_Baton_Is_Succesfully_Created () [0x00001] in
-      C:\\Users\\renat\\Desktop\\Joojs\\Unity_Games\\Pong\\Assets\\Tests\\TestsEdit\\TesteBoard.cs:32
-      \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
-      at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
-      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
-      culture) [0x00032] in <437ba245d8404784b9fbab9b439ac908>:0 "
+    m_ResultText: 'BallEditTests (0,055s)
+
+      ---
+
+      One or more child tests
+      had errors'
+    m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 17b16f22
-      m_LastClickedID: 577745175
+      m_SelectedIDs: 7c1497ed
+      m_LastClickedID: -308865924
       m_ExpandedIDs: 0e7752a2db411f0c9f7aa51b11543c60ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0

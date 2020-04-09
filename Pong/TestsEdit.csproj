@@ -63,7 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Tests\TestsEdit\TesteBoard.cs" />
+    <Compile Include="Assets\Tests\TestsEdit\BallEditTests.cs" />
     <None Include="Assets\Tests\TestsEdit\TestsEdit.asmdef" />
     <Reference Include="UnityEngine.TestRunner">
       <HintPath>C:/Users/renat/Desktop/Joojs/Unity_Games/Pong/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
@@ -626,6 +626,12 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="GameScripts.csproj">
+      <Project>{98E666A4-49B6-4A56-5469-6FAE4E3D0BA8}</Project>
+      <Name>GameScripts</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

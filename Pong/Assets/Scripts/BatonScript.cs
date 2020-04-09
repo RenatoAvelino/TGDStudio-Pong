@@ -5,7 +5,7 @@ using UnityEngine;
 public class BatonScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    private int axis;
+    public int axis;
     public float speed = 5.0f;
     private KeyCode Up;
     private KeyCode Down;
