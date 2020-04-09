@@ -17,6 +17,7 @@ namespace Tests
             GameObject tmp = (GameObject)Resources.Load("Prefabs/Board");
             board = GameObject.Instantiate(tmp);
             script = board.GetComponent<GameController>();
+            script.istest = true;
         }
 
         [Test]
@@ -78,10 +79,18 @@ namespace Tests
         [TearDown]
         public void TearDown()
         {
-            script.DestroyBatons();
+            //script.DestroyBatons();
             GameObject.Destroy(board);
-            GameObject ball = GameObject.Find("Ball(Clone)");
-            GameObject.Destroy(ball);
+            GameObject[] batons = GameObject.FindGameObjectsWithTag("Player");
+            foreach (GameObject baton in batons)
+            {
+                GameObject.Destroy(baton);
+            }
+            GameObject[] balls = GameObject.FindGameObjectsWithTag("Ball");
+            foreach (GameObject ball in balls)
+            {
+                GameObject.Destroy(ball);
+            }
         }
     }
 }

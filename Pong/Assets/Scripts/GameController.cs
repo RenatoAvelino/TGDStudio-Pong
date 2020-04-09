@@ -4,16 +4,37 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
+    private GameObject[] batons;
+    private GameObject ball;
+    public bool istest = false;
     // Start is called before the first frame update
     void Start()
     {
-        GameObject[] batons = CreateBatons();
+        if (!istest)//Just not to interfere with testing
+        {
+            ball = CreateBall();
+            batons = CreateBatons();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (!istest)//Just not to interfere with testing
+        {
+            if (ball.GetComponent<BallScript>().testHelper == 5) //Test if the ball enters in left goal
+            {
+                batons[0].GetComponent<BatonScript>().points++;
+                DestroyBall(); // Destroy the ball
+                ball = CreateBall(); //Recreate the ball
+            }
+            else if (ball.GetComponent<BallScript>().testHelper == -5) //Test if the ball enters in right goal
+            {
+                batons[1].GetComponent<BatonScript>().points++;
+                DestroyBall(); // Destroy the ball
+                ball = CreateBall(); //Recreate the ball
+            }
+        }
     }
 
     public GameObject[] CreateBatons() //Create and return a Array with 2 batons
@@ -41,16 +62,30 @@ public class GameController : MonoBehaviour
 
     public void DestroyBall()
     {
-        GameObject ball = GameObject.FindGameObjectWithTag("Ball"); //Find Ball
-        GameObject.DestroyImmediate(ball, true); //Destroy the Ball (I tried to use only Destroy but it didn't work)
+        GameObject[] balls = GameObject.FindGameObjectsWithTag("Ball");
+        foreach (GameObject ball in balls)
+        {
+            GameObject.DestroyImmediate(ball); //Destroy the Ball (I tried to use only Destroy but it didn't work)
+        }
+        
     }
 
     public void DestroyBatons()
     {
-        GameObject[] batons = GameObject.FindGameObjectsWithTag("Player");
-        foreach(GameObject baton in batons)
+        foreach (GameObject baton in batons)
         {
-            Destroy(baton);
+            Destroy(baton); //Destroy the Baton
+        }
+    }
+
+    public void OnGUI()
+    {
+        if (!istest) //Just not to interfere with testing
+        {
+            int centerX = Screen.width / 2;
+            int offset = 30;
+            GUI.Label(new Rect(new Vector2(centerX - offset, 20), new Vector2(100, 100)), batons[1].GetComponent<BatonScript>().points.ToString());
+            GUI.Label(new Rect(new Vector2(centerX + offset, 20), new Vector2(100, 100)), batons[0].GetComponent<BatonScript>().points.ToString());
         }
     }
 }

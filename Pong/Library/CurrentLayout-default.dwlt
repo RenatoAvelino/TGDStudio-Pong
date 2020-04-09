@@ -113,10 +113,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 709, y: 492}
+  m_MinSize: {x: 534, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 32229
+  controlID: 54
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,12 +136,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 942
+    width: 857
     height: 731
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 32177
+  controlID: 131
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,7 +159,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 942
+    width: 857
     height: 375
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -185,7 +185,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 375
-    width: 942
+    width: 857
     height: 356
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -211,14 +211,14 @@ MonoBehaviour:
   - {fileID: 11}
   m_Position:
     serializedVersion: 2
-    x: 942
+    x: 857
     y: 0
-    width: 234
+    width: 232
     height: 731
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 32266
+  controlID: 16
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -236,10 +236,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 234
+    width: 232
     height: 455
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -262,7 +262,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 455
-    width: 234
+    width: 232
     height: 276
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -281,23 +281,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1176
+    x: 1089
     y: 0
-    width: 360
+    width: 447
     height: 731
-  m_MinSize: {x: 276, y: 71}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -314,14 +314,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 257045534191678443, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
     y: 448
-    width: 941
+    width: 856
     height: 335
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_MaximizeOnPlay: 1
+  m_MaximizeOnPlay: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -365,23 +365,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 941
+      width: 856
       height: 314
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 470.5, y: 157}
+    m_Translation: {x: 428, y: 157}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -470.5
+      x: -428
       y: -157
-      width: 941
+      width: 856
       height: 314
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1176.25, y: 418.75}
+  m_LastWindowPixelSize: {x: 1070, y: 418.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -403,14 +403,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: -131512000283675692, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 941
+    width: 856
     height: 354
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -423,9 +423,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.5765729, y: 1.572926, z: -0.7830663}
+    m_Target: {x: 1.6301844, y: 1.5729198, z: 1.5428092}
     speed: 2
-    m_Value: {x: 1.5765729, y: 1.572926, z: -0.7830663}
+    m_Value: {x: 1.6301844, y: 1.5729198, z: 1.5428092}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -471,13 +471,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.3653437, y: -0.104399644, z: 0.04127546, w: 0.9240784}
+    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: -0.3653437, y: 0.10439965, z: -0.04127546, w: -0.9240784}
+    m_Value: {x: -0.7071068, y: 0, z: -0, w: -0.7071068}
   m_Size:
-    m_Target: 0.14669967
+    m_Target: 17.204367
     speed: 2
-    m_Value: 0.44669968
+    m_Value: 17.204367
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -518,14 +518,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -9000905672528348964, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 942.4
+    x: 856.8
     y: 73.6
-    width: 232
+    width: 230
     height: 434
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
@@ -533,7 +533,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c6e2feffdee2fefff2e2feff14e3feff1ee4feff7ce4feff9ee4feffb0e5feff0ee6feff30e6feff3ae7feff50e8feff72e8feff84e9feffe2e9feff04eafeff16ebfeff74ebfeff96ebfeffa8ecfeff54eefeff76eefeff80effeffdeeffeff00f0feff0af1feff84f1feffa6f1feffb0f2feffb6f4feffd8f4feffeaf5fefff6f6feff18f7feff22f8feffe2f8feff04f9feff16fafeff8efafeffb0fafeff9efbfeff5cfcfeff7efcfeff90fdfeff48fefeff6afefeff7cfffeff4e00ffff7000ffff7a01ffffb803ffffda03ffffe404ffff4205ffff6405ffff7606ffffd607fffff807ffff0209ffff6e09ffff9009ffff9a0affff660dffff880dffff920effff580fffff7a0fffff8610ffffea10ffff0c11ffff1812ffff7a28ffff9c28ffffa629ffff742cffff962cffffa02dffff162fffff382fffffbe30ffff3c31ffff5e31ffff6832ffff6433ffff8633ffff9034ffff2c35ffff4e35ffff5836ffff903dffffb23dffff7c3effff423fffff643fffff3640fffff440ffff1641ffff4242ffff6043ffff8243ffff4e44ffff0445ffff2645ffff9847ffff184affffaa4affff3a4effff5c4effffb655ffff2c5dffff405dffff625dffff425effff445fffff665fffff4460ffff9c60ffffbe60ffff9c61ffff4c62ffff6e62ffff4c63fffff263ffff1464fffffa64fffff265ffff1466ffff8c66ffff2e67ffff5067ffffc067ffff3468ffff5668ffff6269ffff9e7affff46fbffff70fbffff
+      m_ExpandedIDs: 72f9ffff92f9ffff38faffff70fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -573,14 +573,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -2032128904892744680, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 942.4
+    x: 856.8
     y: 528
-    width: 232
+    width: 230
     height: 255
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -596,7 +596,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Materials/Physics
+    - Assets
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders:
@@ -609,7 +609,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 243c0000
     m_LastClickedID: 15396
-    m_ExpandedIDs: ffffffff00000000d8330000da330000dc330000de330000e0330000e2330000e6330000fa330000763400005a4800005c480000
+    m_ExpandedIDs: 00000000e8330000ea330000ec330000ee330000f0330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -637,7 +637,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000d8330000da330000dc330000de330000e0330000e2330000e6330000fa330000763400005a4800005c480000
+    m_ExpandedIDs: ffffffff00000000e8330000ea330000ec330000ee330000f0330000f6330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -709,14 +709,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: 8356117983803934776, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1176
+    x: 1235.2001
     y: 73.6
-    width: 359
+    width: 300
     height: 710
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
@@ -751,13 +751,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1176
+    x: 1088.8
     y: 73.6
-    width: 359
+    width: 446
     height: 710
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 21281
+    ID: 156
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes: e0010000a0000000
@@ -778,7 +778,7 @@ MonoBehaviour:
       name: Pong
       fullName: Pong
       resultStatus: 1
-      duration: 0.4966844
+      duration: 5.2745194
       messages: 
       output: 
       stacktrace: 
@@ -794,7 +794,7 @@ MonoBehaviour:
       name: TestsPlay.dll
       fullName: C:/Users/renat/Desktop/Joojs/Unity_Games/Pong/Library/ScriptAssemblies/TestsPlay.dll
       resultStatus: 1
-      duration: 0.4481289
+      duration: 5.1712136
       messages: 
       output: 
       stacktrace: 
@@ -810,7 +810,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 1
-      duration: 0.4331178
+      duration: 5.1336823
       messages: 
       output: 
       stacktrace: 
@@ -826,7 +826,7 @@ MonoBehaviour:
       name: BallTests
       fullName: Tests.BallTests
       resultStatus: 1
-      duration: 0.4209981
+      duration: 3.5466373
       messages: 
       output: 
       stacktrace: 
@@ -837,12 +837,46 @@ MonoBehaviour:
       categories: []
       parentId: 1020
       parentUniqueId: TestsPlay.dll/[Tests][suite]
+    - id: 1015
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.A_Ball_Enters_In_Left_Goal]
+      name: A_Ball_Enters_In_Left_Goal
+      fullName: Tests.BallTests.A_Ball_Enters_In_Left_Goal
+      resultStatus: 1
+      duration: 0.4461044
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
+    - id: 1016
+      uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.A_Ball_Enters_In_Right_Goal]
+      name: A_Ball_Enters_In_Right_Goal
+      fullName: Tests.BallTests.A_Ball_Enters_In_Right_Goal
+      resultStatus: 1
+      duration: 0.3500928
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BallTests][suite]
     - id: 1011
       uniqueId: TestsPlay.dll/Tests/BallTests/[TestsPlay][Tests.BallTests.Ball_Collides_In_Bottom_Of_Left_Baton]
       name: Ball_Collides_In_Bottom_Of_Left_Baton
       fullName: Tests.BallTests.Ball_Collides_In_Bottom_Of_Left_Baton
       resultStatus: 1
-      duration: 0.393563
+      duration: 0.3186218
       messages: 
       output: 
       stacktrace: 
@@ -859,7 +893,7 @@ MonoBehaviour:
       name: Ball_Collides_In_Bottom_Of_Right_Baton
       fullName: Tests.BallTests.Ball_Collides_In_Bottom_Of_Right_Baton
       resultStatus: 1
-      duration: 0.3726054
+      duration: 0.3309077
       messages: 
       output: 
       stacktrace: 
@@ -876,7 +910,7 @@ MonoBehaviour:
       name: Ball_Collides_In_Middle_Of_Left_Baton
       fullName: Tests.BallTests.Ball_Collides_In_Middle_Of_Left_Baton
       resultStatus: 1
-      duration: 0.3652
+      duration: 0.3159136
       messages: 
       output: 
       stacktrace: 
@@ -893,7 +927,7 @@ MonoBehaviour:
       name: Ball_Collides_In_Middle_Of_Right_Baton
       fullName: Tests.BallTests.Ball_Collides_In_Middle_Of_Right_Baton
       resultStatus: 1
-      duration: 0.3694418
+      duration: 0.3194589
       messages: 
       output: 
       stacktrace: 
@@ -910,7 +944,7 @@ MonoBehaviour:
       name: Ball_Collides_In_Top_Of_Left_Baton
       fullName: Tests.BallTests.Ball_Collides_In_Top_Of_Left_Baton
       resultStatus: 1
-      duration: 0.3634667
+      duration: 0.3162559
       messages: 
       output: 
       stacktrace: 
@@ -927,7 +961,7 @@ MonoBehaviour:
       name: Ball_Collides_In_Top_Of_Right_Baton
       fullName: Tests.BallTests.Ball_Collides_In_Top_Of_Right_Baton
       resultStatus: 1
-      duration: 0.3696938
+      duration: 0.3077267
       messages: 
       output: 
       stacktrace: 
@@ -944,7 +978,7 @@ MonoBehaviour:
       name: Ball_Stays_In_Lower_Camera_Bounds
       fullName: Tests.BallTests.Ball_Stays_In_Lower_Camera_Bounds
       resultStatus: 1
-      duration: 1.3287494
+      duration: 0.320219
       messages: 
       output: 
       stacktrace: 
@@ -961,7 +995,7 @@ MonoBehaviour:
       name: Ball_Stays_In_Upper_Camera_Bounds
       fullName: Tests.BallTests.Ball_Stays_In_Upper_Camera_Bounds
       resultStatus: 1
-      duration: 5.1353345
+      duration: 0.339589
       messages: 
       output: 
       stacktrace: 
@@ -978,7 +1012,7 @@ MonoBehaviour:
       name: BallTestsSimplePasses
       fullName: Tests.BallTests.BallTestsSimplePasses
       resultStatus: 1
-      duration: 0.0035691
+      duration: 0.0069888
       messages: 
       output: 
       stacktrace: 
@@ -995,7 +1029,7 @@ MonoBehaviour:
       name: BallTestsWithEnumeratorPasses
       fullName: Tests.BallTests.BallTestsWithEnumeratorPasses
       resultStatus: 1
-      duration: 0.0501743
+      duration: 0.0763139
       messages: 
       output: 
       stacktrace: 
@@ -1012,7 +1046,7 @@ MonoBehaviour:
       name: Hit_Player_Result_Negative
       fullName: Tests.BallTests.Hit_Player_Result_Negative
       resultStatus: 1
-      duration: 0.0432832
+      duration: 0.0046542
       messages: 
       output: 
       stacktrace: 
@@ -1029,7 +1063,7 @@ MonoBehaviour:
       name: Hit_Player_Result_Positive
       fullName: Tests.BallTests.Hit_Player_Result_Positive
       resultStatus: 1
-      duration: 0.0459157
+      duration: 0.0016912
       messages: 
       output: 
       stacktrace: 
@@ -1046,7 +1080,7 @@ MonoBehaviour:
       name: Hit_Player_Result_Zero
       fullName: Tests.BallTests.Hit_Player_Result_Zero
       resultStatus: 1
-      duration: 0.007935
+      duration: 0.0038146
       messages: 
       output: 
       stacktrace: 
@@ -1063,7 +1097,7 @@ MonoBehaviour:
       name: BatonTests
       fullName: Tests.BatonTests
       resultStatus: 1
-      duration: 1.3071984
+      duration: 1.4324188
       messages: 
       output: 
       stacktrace: 
@@ -1079,7 +1113,7 @@ MonoBehaviour:
       name: BatonTestsSimplePasses
       fullName: Tests.BatonTests.BatonTestsSimplePasses
       resultStatus: 1
-      duration: 0.0026396
+      duration: 0.0019315
       messages: 
       output: 
       stacktrace: 
@@ -1096,7 +1130,7 @@ MonoBehaviour:
       name: BatonTestsWithEnumeratorPasses
       fullName: Tests.BatonTests.BatonTestsWithEnumeratorPasses
       resultStatus: 1
-      duration: 0.0533122
+      duration: 0.0870812
       messages: 
       output: 
       stacktrace: 
@@ -1113,7 +1147,7 @@ MonoBehaviour:
       name: Left_Baton_Stays_In_Lower_Camera_Bounds
       fullName: Tests.BatonTests.Left_Baton_Stays_In_Lower_Camera_Bounds
       resultStatus: 1
-      duration: 0.3012091
+      duration: 0.329259
       messages: 
       output: 
       stacktrace: 
@@ -1130,7 +1164,7 @@ MonoBehaviour:
       name: Left_Baton_Stays_In_Upper_Camera_Bounds
       fullName: Tests.BatonTests.Left_Baton_Stays_In_Upper_Camera_Bounds
       resultStatus: 1
-      duration: 0.3039686
+      duration: 0.3293271
       messages: 
       output: 
       stacktrace: 
@@ -1147,7 +1181,7 @@ MonoBehaviour:
       name: Right_Baton_Stays_In_Lower_Camera_Bounds
       fullName: Tests.BatonTests.Right_Baton_Stays_In_Lower_Camera_Bounds
       resultStatus: 1
-      duration: 0.3012364
+      duration: 0.3205699
       messages: 
       output: 
       stacktrace: 
@@ -1164,7 +1198,7 @@ MonoBehaviour:
       name: Right_Baton_Stays_In_Upper_Camera_Bounds
       fullName: Tests.BatonTests.Right_Baton_Stays_In_Upper_Camera_Bounds
       resultStatus: 1
-      duration: 0.3198922
+      duration: 0.3353911
       messages: 
       output: 
       stacktrace: 
@@ -1181,7 +1215,7 @@ MonoBehaviour:
       name: BoardTests
       fullName: Tests.BoardTests
       resultStatus: 1
-      duration: 0.1027242
+      duration: 0.1128696
       messages: 
       output: 
       stacktrace: 
@@ -1197,7 +1231,7 @@ MonoBehaviour:
       name: Ball_Is_Succesfully_Created
       fullName: Tests.BoardTests.Ball_Is_Succesfully_Created
       resultStatus: 1
-      duration: 0.0056915
+      duration: 0.0065934
       messages: 
       output: 
       stacktrace: 
@@ -1214,7 +1248,7 @@ MonoBehaviour:
       name: Ball_Is_Succesfully_Created_And_Unique
       fullName: Tests.BoardTests.Ball_Is_Succesfully_Created_And_Unique
       resultStatus: 1
-      duration: 0.0073284
+      duration: 0.0012525
       messages: 
       output: 
       stacktrace: 
@@ -1231,7 +1265,7 @@ MonoBehaviour:
       name: Ball_Is_Sucefully_Destroyed
       fullName: Tests.BoardTests.Ball_Is_Sucefully_Destroyed
       resultStatus: 1
-      duration: 0.0010744
+      duration: 0.0012671
       messages: 
       output: 
       stacktrace: 
@@ -1248,7 +1282,7 @@ MonoBehaviour:
       name: BoardTestsSimplePasses
       fullName: Tests.BoardTests.BoardTestsSimplePasses
       resultStatus: 1
-      duration: 0.000579
+      duration: 0.0021391
       messages: 
       output: 
       stacktrace: 
@@ -1265,7 +1299,7 @@ MonoBehaviour:
       name: BoardTestsWithEnumeratorPasses
       fullName: Tests.BoardTests.BoardTestsWithEnumeratorPasses
       resultStatus: 1
-      duration: 0.0607162
+      duration: 0.0660759
       messages: 
       output: 
       stacktrace: 
@@ -1282,7 +1316,7 @@ MonoBehaviour:
       name: Both_Batons_Are_Succesfully_Created
       fullName: Tests.BoardTests.Both_Batons_Are_Succesfully_Created
       resultStatus: 1
-      duration: 0.0009234
+      duration: 0.0013326
       messages: 
       output: 
       stacktrace: 
@@ -1299,7 +1333,7 @@ MonoBehaviour:
       name: One_Baton_Is_Succesfully_Created
       fullName: Tests.BoardTests.One_Baton_Is_Succesfully_Created
       resultStatus: 1
-      duration: 0.0011505
+      duration: 0.0015485
       messages: 
       output: 
       stacktrace: 
@@ -1311,13 +1345,13 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: TestsPlay.dll/Tests/[TestsPlay][Tests.BoardTests][suite]
-    m_ResultText: Ball_Collides_In_Top_Of_Right_Baton (0,370s)
+    m_ResultText: A_Ball_Enters_In_Left_Goal (0,446s)
     m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: babe0f71
-      m_LastClickedID: 1896857274
-      m_ExpandedIDs: 0e7752a27e2811bf18305d46efc68c506b5d2662ffffff7f
+      scrollPos: {x: 0, y: 68}
+      m_SelectedIDs: b2ff62c1
+      m_LastClickedID: -1050476622
+      m_ExpandedIDs: 27a27d960e7752a27e2811bfef93e92c18305d46efc68c506b5d2662ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

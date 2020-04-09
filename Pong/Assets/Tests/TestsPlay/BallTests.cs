@@ -17,6 +17,7 @@ namespace Tests
             GameObject tmp = (GameObject)Resources.Load("Prefabs/Board");
             board = GameObject.Instantiate(tmp);
             script = board.GetComponent<GameController>();
+            script.istest = true;
         }
 
         // A Test behaves as an ordinary method
@@ -75,7 +76,7 @@ namespace Tests
         [UnityTest]
         public IEnumerator Ball_Stays_In_Upper_Camera_Bounds() //Test if the ball stays on screen
         {
-            //Time.timeScale = 20.0f; //Speeds the test
+            Time.timeScale = 20.0f; //Speeds the test
             GameObject ball = script.CreateBall();
 
             //Arbitrary values
@@ -104,7 +105,7 @@ namespace Tests
             //Arbitrary values
             float linSpeed = 0f; //For x
             float angSpeed = -1.0f; // For z
-            ball.GetComponent<BallScript>().speed = 4;
+            ball.GetComponent<BallScript>().speed = 3;
 
             float time = 0;
             while (time < 5)
@@ -126,9 +127,9 @@ namespace Tests
             GameObject ball = script.CreateBall();
 
             //Arbitrary values
-            float linSpeed = 1.0f; //For x
+            float linSpeed = -1.0f; //For x
             float angSpeed = 0f; // For z
-            ball.GetComponent<BallScript>().speed = 4;
+            ball.GetComponent<BallScript>().speed = 3;
             ball.GetComponent<BallScript>().isTest = true;
 
             ball.GetComponent<BallScript>().MoveBallWithValues(linSpeed, angSpeed);
@@ -152,9 +153,9 @@ namespace Tests
             ball.transform.position = new Vector3(0, 0.5f, 1.2f);
 
             //Arbitrary values
-            float linSpeed = 1.0f; //For x
+            float linSpeed = -1.0f; //For x
             float angSpeed = 0f; // For z
-            ball.GetComponent<BallScript>().speed = 4;
+            ball.GetComponent<BallScript>().speed = 3;
             ball.GetComponent<BallScript>().isTest = true;
 
             ball.GetComponent<BallScript>().MoveBallWithValues(linSpeed, angSpeed);
@@ -178,9 +179,9 @@ namespace Tests
             ball.transform.position = new Vector3(0, 0.5f, -1.2f);
 
             //Arbitrary values
-            float linSpeed = 1.0f; //For x
+            float linSpeed = -1.0f; //For x
             float angSpeed = 0f; // For z
-            ball.GetComponent<BallScript>().speed = 4;
+            ball.GetComponent<BallScript>().speed = 3;
             ball.GetComponent<BallScript>().isTest = true;
 
             ball.GetComponent<BallScript>().MoveBallWithValues(linSpeed, angSpeed);
@@ -203,9 +204,9 @@ namespace Tests
             GameObject ball = script.CreateBall();
 
             //Arbitrary values
-            float linSpeed = -1.0f; //For x
+            float linSpeed = 1.0f; //For x
             float angSpeed = 0f; // For z
-            ball.GetComponent<BallScript>().speed = 4;
+            ball.GetComponent<BallScript>().speed = 3;
             ball.GetComponent<BallScript>().isTest = true;
 
             ball.GetComponent<BallScript>().MoveBallWithValues(linSpeed, angSpeed);
@@ -229,9 +230,9 @@ namespace Tests
             ball.transform.position = new Vector3(0, 0.5f, 1.2f);
 
             //Arbitrary values
-            float linSpeed = -1.0f; //For x
+            float linSpeed = 1.0f; //For x
             float angSpeed = 0f; // For z
-            ball.GetComponent<BallScript>().speed = 4;
+            ball.GetComponent<BallScript>().speed = 3;
             ball.GetComponent<BallScript>().isTest = true;
 
             ball.GetComponent<BallScript>().MoveBallWithValues(linSpeed, angSpeed);
@@ -255,9 +256,9 @@ namespace Tests
             ball.transform.position = new Vector3(0, 0.5f, -1.2f);
 
             //Arbitrary values
-            float linSpeed = -1.0f; //For x
+            float linSpeed = 1.0f; //For x
             float angSpeed = 0f; // For z
-            ball.GetComponent<BallScript>().speed = 4;
+            ball.GetComponent<BallScript>().speed = 3;
             ball.GetComponent<BallScript>().isTest = true;
 
             ball.GetComponent<BallScript>().MoveBallWithValues(linSpeed, angSpeed);
@@ -272,13 +273,67 @@ namespace Tests
             Assert.AreEqual(-3, ball.GetComponent<BallScript>().testHelper);
         }
 
+        [UnityTest]
+        public IEnumerator A_Ball_Enters_In_Left_Goal() //Test if the ball enters in left goal
+        {
+            Time.timeScale = 20.0f; //Speeds the test
+            GameObject ball = script.CreateBall();
+
+            //Arbitrary values
+            float linSpeed = -1.0f; //For x
+            float angSpeed = 0f; // For z
+            ball.GetComponent<BallScript>().speed = 3;
+            ball.GetComponent<BallScript>().isTest = true;
+
+            float time = 0;
+            while (time < 5)
+            {
+                ball.GetComponent<BallScript>().MoveBallWithValues(linSpeed, angSpeed);
+                time += Time.fixedDeltaTime;
+                yield return new WaitForFixedUpdate();
+            }
+            Assert.AreEqual(5, ball.GetComponent<BallScript>().testHelper);
+        }
+
+        [UnityTest]
+        public IEnumerator A_Ball_Enters_In_Right_Goal() //Test if the ball enters in right goal
+        {
+            Time.timeScale = 20.0f; //Speeds the test
+            GameObject ball = script.CreateBall();
+
+            //Arbitrary values
+            float linSpeed = 1.0f; //For x
+            float angSpeed = 0f; // For z
+            ball.GetComponent<BallScript>().speed = 3;
+            ball.GetComponent<BallScript>().isTest = true;
+
+            float time = 0;
+            while (time < 5)
+            {
+                ball.GetComponent<BallScript>().MoveBallWithValues(linSpeed, angSpeed);
+                time += Time.fixedDeltaTime;
+                yield return new WaitForFixedUpdate();
+            }
+            Assert.AreEqual(-5, ball.GetComponent<BallScript>().testHelper);
+        }
+
         [TearDown]
         public void TearDown()
         {
             GameObject.Destroy(board);
-            script.DestroyBatons();
-            GameObject ball = GameObject.Find("Ball(Clone)");
-            GameObject.Destroy(ball);
+            //script.DestroyBatons();
+            //GameObject ball = GameObject.Find("Ball(Clone)");
+            //GameObject.Destroy(ball);
+            GameObject[] balls = GameObject.FindGameObjectsWithTag("Ball");
+            foreach(GameObject ball in balls)
+            {
+                GameObject.Destroy(ball);
+            }
+            GameObject[] batons = GameObject.FindGameObjectsWithTag("Player");
+            foreach (GameObject baton in batons)
+            {
+                GameObject.Destroy(baton);
+            }
         }
     }
 }

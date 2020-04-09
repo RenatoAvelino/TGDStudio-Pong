@@ -115,7 +115,11 @@ namespace Tests
         public void TearDown()
         {
             GameObject.Destroy(board);
-            script.DestroyBatons();
+            GameObject[] batons = GameObject.FindGameObjectsWithTag("Player");
+            foreach (GameObject baton in batons)
+            {
+                GameObject.Destroy(baton);
+            }
             GameObject ball = GameObject.Find("Ball(Clone)");
             GameObject.Destroy(ball);
         }

@@ -7,6 +7,7 @@ public class BatonScript : MonoBehaviour
     // Start is called before the first frame update
     public int axis;
     public float speed = 5.0f;
+    public int points = 0;
     private KeyCode Up;
     private KeyCode Down;
     void Start()
