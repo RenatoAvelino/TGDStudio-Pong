@@ -21,6 +21,7 @@ public class BallScript : MonoBehaviour
 
    void OnCollisionEnter(Collision collision) //Checks whether the ball has collided
    {
+        GetComponent<AudioSource>().Play();
         if(collision.gameObject.tag == "Player") //Checks whether the ball hit a Player
         {
             float temp = hitPlayer(transform.position, collision.transform.position, collision.collider.bounds.size.z);

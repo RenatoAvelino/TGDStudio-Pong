@@ -20,6 +20,7 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKey(KeyCode.Escape)) Application.Quit(); //Ends the Game
         if (!istest)//Just not to interfere with testing
         {
             if (ball.GetComponent<BallScript>().testHelper == 5) //Test if the ball enters in left goal
